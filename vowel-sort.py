@@ -6,6 +6,6 @@ print('Sorted list:',vowels)
 vowels.sort(reverse=True)
 print('Sorted list (descending):',vowels)
 
-numbers = ['like','i','coffee','black']
-numbers.sort(key=len)
+words = ['like','i','coffee','black']
+words.sort(key=len)
 print(numbers)
