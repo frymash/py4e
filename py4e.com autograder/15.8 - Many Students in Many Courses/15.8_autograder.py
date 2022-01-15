@@ -8,6 +8,7 @@ conn = sqlite3.connect('15.8_rosterdb.sqlite')
 cur = conn.cursor()
 
 # Do some setup
+# The table "member" is the junction table connecting "User" and "Course"
 cur.executescript('''
 DROP TABLE IF EXISTS User;
 DROP TABLE IF EXISTS Member;

@@ -12,7 +12,7 @@ api_key = False
 
 if api_key is False:
     api_key = 42
-    serviceurl = "http://py4e-data.dr-chuck.net/geojson?"
+    serviceurl = "http://py4e-data.dr-chuck.net/json?"
 else :
     serviceurl = "https://maps.googleapis.com/maps/api/geocode/json?"
 
@@ -76,6 +76,6 @@ for line in fh:
     conn.commit()
     if count % 10 == 0 :
         print('Pausing for a bit...')
-        time.sleep(5)
+        time.sleep(3)
 
-print("Run geodump.py to read the data from the database so you can vizualize it on a map.")
+print("Run geodump.py to read the data from the database so you can visualize it on a map.")

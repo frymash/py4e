@@ -14,9 +14,11 @@ ctx.verify_mode = ssl.CERT_NONE
 # Load XML data from the URL into the ET and sum all counts.
 xml = urlopen(url, context=ctx).read()
 commentinfo = ET.fromstring(xml)
+
 sum = 0
 for count in commentinfo.findall('.//count'):
     sum += int(count.text)
+    
 print('\nSum:', sum)
 
 ''' At line 17, an alternative method could be used where the 'comments' node

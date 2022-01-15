@@ -16,5 +16,10 @@ for line in handle:
 
 lst = sorted(tcounts.items())
 
+# 21/12 2021 note:
+# alternatively,
+# lst = list(tcounts.items())
+# lst.sort()
+
 for k,v in lst:
 	print(k,v)
