@@ -1,4 +1,7 @@
-# University of Michigan - Python for Everybody
+# University of Michigan - Python for Everybody  
+
+[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
+![Last commit](https://img.shields.io/github/last-commit/ozervesh/py4e)
 
 * I took the University of Michigan's "Python for Everybody" Coursera specialization between 4 April 2021 to 7 October 2021.
 * Given that assignments were locked behind a paywall on Coursera but are free via Dr. Severance's [PY4E website](https://www.py4e.com), I used Coursera to track my progress on video lectures while using the PY4E website for autograder submissions.
